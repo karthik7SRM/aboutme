@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageTurner Books | Online Bookstore</title>
+    <!-- Google Fonts Embed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header with Sticky Position -->
+    <header class="navbar">
+        <div class="logo-container">
+            <h1 class="logo-text">Page<span>Turner</span></h1>
+        </div>
+
+        <form class="search-bar" action="#" method="get">
+            <input type="text" placeholder="Search by title, author, or ISBN..." name="query">
+            <button type="submit">Search</button>
+        </form>
+
+        <nav class="nav-links">
+            <a href="#featured">Featured</a>
+            <a href="#categories">Categories</a>
+            <a href="#pricing">Price List</a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">External Catalog</a>
+        </nav>
+    </header>
+
+    <div class="main-container">
+
+        <!-- Categories Section -->
+        <section id="categories" class="categories-section">
+            <h2 class="section-title">Browse Categories</h2>
+            <div class="category-tags">
+                <a href="#fiction" class="category-tag">Fiction</a>
+                <a href="#non-fiction" class="category-tag">Non-Fiction</a>
+                <a href="#technology" class="category-tag">Technology</a>
+                <a href="#science" class="category-tag">Sci-Fi & Fantasy</a>
+                <a href="#biography" class="category-tag">Biography</a>
+            </div>
+        </section>
+
+        <!-- Featured Books Grid with Cards & Ribbons -->
+        <section id="featured" class="featured-section">
+            <h2 class="section-title">Featured Books</h2>
+
+            <div class="cards-grid">
+                
+                <!-- Book Card 1 (With Bestseller Ribbon) -->
+                <div class="book-card">
+                    <div class="ribbon">Best Seller</div>
+                    <img src="https://picsum.photos/id/24/300/400" alt="Book Cover 1" class="book-cover">
+                    <div class="card-body">
+                        <h3 class="book-title">The Art of Code</h3>
+                        <p class="book-author">By Sarah Jenkins</p>
+                        <p class="book-desc">
+                            <img src="https://picsum.photos/id/1062/60/60" alt="Reviewer" class="float-img">
+                            An indispensable guide to writing clean, maintainable, and efficient code for modern software engineers. Highly recommended by industry leaders worldwide.
+                        </p>
+                        <div class="card-footer">
+                            <span class="price">$29.99</span>
+                            <button class="buy-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Book Card 2 -->
+                <div class="book-card">
+                    <img src="https://picsum.photos/id/1010/300/400" alt="Book Cover 2" class="book-cover">
+                    <div class="card-body">
+                        <h3 class="book-title">Silent Echoes</h3>
+                        <p class="book-author">By Marcus Vance</p>
+                        <p class="book-desc">
+                            <img src="https://picsum.photos/id/1025/60/60" alt="Reviewer" class="float-img">
+                            A thrilling mystery set in an isolated coastal town where secrets buried for decades suddenly begin to surface during a storm.
+                        </p>
+                        <div class="card-footer">
+                            <span class="price">$18.50</span>
+                            <button class="buy-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Book Card 3 (With Bestseller Ribbon) -->
+                <div class="book-card">
+                    <div class="ribbon">Best Seller</div>
+                    <img src="https://picsum.photos/id/367/300/400" alt="Book Cover 3" class="book-cover">
+                    <div class="card-body">
+                        <h3 class="book-title">Cosmic Frontiers</h3>
+                        <p class="book-author">By Dr. Elena Rostova</p>
+                        <p class="book-desc">
+                            <img src="https://picsum.photos/id/1074/60/60" alt="Reviewer" class="float-img">
+                            Explore the deep mysteries of astrophysics, black holes, and the future of interstellar travel in this captivating read.
+                        </p>
+                        <div class="card-footer">
+                            <span class="price">$24.00</span>
+                            <button class="buy-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Price Table Section -->
+        <section id="pricing" class="pricing-section">
+            <h2 class="section-title">Membership & Bulk Pricing Table</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tier Plan</th>
+                            <th>Monthly Discount</th>
+                            <th>Free Shipping</th>
+                            <th>Bonus E-Books</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Standard Reader</td>
+                            <td>5% Off</td>
+                            <td>Orders over $35</td>
+                            <td>1 / month</td>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <td>Bookworm Plus</td>
+                            <td>15% Off</td>
+                            <td>All Orders</td>
+                            <td>3 / month</td>
+                            <td>$9.99 / mo</td>
+                        </tr>
+                        <tr>
+                            <td>Collector's Guild</td>
+                            <td>25% Off</td>
+                            <td>Express Delivery</td>
+                            <td>Unlimited</td>
+                            <td>$19.99 / mo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>2026 PageTurner Bookstore Inc. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#featured">Top Books</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
